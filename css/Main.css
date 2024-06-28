@@ -149,6 +149,17 @@ section {
   background-color: #FEB9CC;
 }
 
+h2 {
+  font-size: 36px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
 .app {
   padding-top: 103px;
   flex: 1;

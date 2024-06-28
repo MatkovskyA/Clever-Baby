@@ -7,6 +7,7 @@ import Header from './components/header/Header'
 import ScrollToTop from './utils/ScrollToTop'
 import Footer from './components/footer/Footer'
 import Map from './components/map/Map'
+import Metodology from './components/metodology/Metodology'
 
 function App() {
   const [count, setCount] = useState(0)

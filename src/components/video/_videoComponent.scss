@@ -1,0 +1,59 @@
+.aboutLearning {
+  position: relative;
+}
+
+// .aboutLearning::after {
+//   content: "";
+//   position: absolute;
+//   width: 155px;
+//   height: 135px;
+//   background: url(../resourses/rocket.svg) no-repeat;
+//   top: -80px;
+//   right: 150px;
+// }
+
+// .aboutLearning::before {
+//   content: "";
+//   position: absolute;
+//   width: 155px;
+//   height: 135px;
+//   background: url(../resourses/girl.svg) no-repeat;
+//   top: 120px;
+//   left: 50px;
+// }
+
+.aboutLearning-inner {
+  width: 50%;
+  margin-bottom: 160px;
+}
+.aboutLearning-video {
+  max-width: 100%;
+  padding-top: 56%;
+  position: relative;
+  background: url(../../assets/images/foto-video.png) no-repeat center center;
+  border-radius: 10px;
+}
+.aboutLearning-video::before {
+  content: "";
+  background: url(../../assets/icons/VideoArrow.svg) no-repeat;
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+.aboutLearning-video:hover {
+  opacity: 0.8;
+}
+.aboutLearning-video iframe {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+

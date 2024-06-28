@@ -1,0 +1,35 @@
+.metodology {
+
+  .container {
+    max-width: 931px;
+  }
+
+  .metodology-wrapper {
+
+    .metodology-title {
+      text-align: center;
+    }
+
+    .metodology-title {
+      margin-bottom: 80px;
+    }
+
+    .metodology-inner {
+      display: flex;
+      gap: 86px;
+
+      .metodology-text {
+        flex: 1
+      }
+
+      .metodology-text-title {
+        margin-bottom: 30px;
+      }
+      .metodology-text-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+  }
+}

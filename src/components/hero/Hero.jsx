@@ -18,9 +18,6 @@ const Hero = () => {
           </div>
         </div>
       </section>
-      <section className="metodology">
-
-      </section>
     </>
 
   )
