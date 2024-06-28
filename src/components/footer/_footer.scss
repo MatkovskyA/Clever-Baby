@@ -1,6 +1,15 @@
 .footer {
   margin-top: auto;
-  background-color: #f7f7f7;
-  padding: 10px;
-  
+  padding: 40px 0;
+}
+
+.footer-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-rights {
+  display: flex;
+  gap: 5px;
 }

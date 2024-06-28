@@ -1,6 +1,10 @@
+import Hero from "../components/hero/Hero"
+
 const Home = () => {
   return (
-    <h1>Это страница Главная</h1>
+    <>
+      <Hero />
+    </>
   )
 }
 

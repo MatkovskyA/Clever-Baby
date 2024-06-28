@@ -35,8 +35,30 @@
   color: $text-color;
 }
 
+section {
+  margin-bottom: 130px;
+}
+
 .container {
-  max-width: 1366px;
+  max-width: 1170px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.btn {
+  padding: 18px 35px 20px;
+  border-radius: 35px;
+}
+
+.yellow-btn {
+  background-color: $btn-color-yellow;
+}
+
+.blue-btn {
+  background-color: $btn-color-blue;
+}
+
+.pink-btn {
+  background-color: $btn-color-pink;
+
 }

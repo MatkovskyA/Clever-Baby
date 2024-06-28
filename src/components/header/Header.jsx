@@ -17,10 +17,7 @@ const Header = () => {
                 <NavLink to="/">Главная</NavLink>
               </li>
               <li>
-                <NavLink to="/metodology">Методология</NavLink>
-              </li>
-              <li>
-                <NavLink to="/teachers">Преподаватели</NavLink>
+                <NavLink to="/teachers">Преподаватели и группы</NavLink>
               </li>
               <li>
                 <NavLink to="/contacts">Контакты</NavLink>
@@ -31,7 +28,6 @@ const Header = () => {
           <div className="header-phone">
             <a href="tel:+74959834719">+ 7(495)983-47-19</a>
           </div>
-
         </div>
       </div>
     </header>
