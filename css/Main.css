@@ -170,7 +170,8 @@ h3 {
 
 .header {
   position: fixed;
-  background-color: #fff;
+  z-index: 1;
+  background-color: #e7e5e5;
   top: 0;
   left: 0;
   right: 0;
@@ -221,4 +222,21 @@ h3 {
 .hero .hero-wrapper .hero-description {
   margin-bottom: 45px;
   max-width: 375px;
+}
+
+.footer {
+  margin-top: auto;
+  padding: 40px 0;
+  background-color: #e7e5e5;
+}
+
+.footer-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-rights {
+  display: flex;
+  gap: 5px;
 }/*# sourceMappingURL=main.css.map */

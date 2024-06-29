@@ -1,6 +1,6 @@
+import React, { useState } from 'react';
 import "./_videoComponent.scss"
 
-import React, { useState } from 'react';
 
 const VideoComponent = () => {
     const [isReady, setReady] = useState(false);

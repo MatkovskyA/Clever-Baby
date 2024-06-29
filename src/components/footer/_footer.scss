@@ -1,6 +1,9 @@
+@import "../../assets/styles/variables";
+
 .footer {
   margin-top: auto;
   padding: 40px 0;
+  background-color: $bg-gray-color;
 }
 
 .footer-wrapper {

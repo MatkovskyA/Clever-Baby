@@ -1,0 +1,27 @@
+@import "../advantage/advantage";
+
+.advantages {
+  .container {
+    max-width: 931px;
+  }
+
+  .advantages-title {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .advantages-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 37% 37% 36%)
+  }
+
+  .advantage-column{
+    display: flex;
+    flex-direction: column;
+    gap:130px;
+  }
+
+  .advantage-column:first-child {
+    margin-top: 45px;
+  }
+}

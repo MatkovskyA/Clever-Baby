@@ -1,6 +1,9 @@
+@import "../../assets/styles/variables";
+
 .header {
   position: fixed;
-  background-color: #fff;
+  z-index: 1;
+  background-color: $bg-gray-color;
   top: 0;
   left: 0;
   right: 0;
