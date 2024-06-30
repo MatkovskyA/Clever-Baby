@@ -10,6 +10,7 @@ const Advantages = () => {
         <div className="advantages-wrapper">
           <div className="advantage-column">
             <Advantage
+              decor={"decor-left"}
               title={'Развитие 10 видов интеллекта'}
               text={"Учимся общаться, развивать эмоциональный, творческий интеллект и многое другое"} />
             <Advantage
@@ -24,6 +25,7 @@ const Advantages = () => {
               title={'Языковое погружение'}
               text={"Занятия проходят полностью на английском языке, независимо от типа задания"} />
             <Advantage
+              decor={"decor-right"}
               title={'Небольшие группы'}
               text={"Дети занимаются в группах до 5 человек, что позволяет применять индивидуальный подход к каждому"} />
           </div>

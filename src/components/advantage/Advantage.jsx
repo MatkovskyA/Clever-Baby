@@ -1,8 +1,8 @@
 import "./_advantage.scss"
 
-const Advantage = ({ title, text }) => {
+const Advantage = ({ decor="", title, text }) => {
   return (
-    <div className="advantage">
+    <div className={`advantage ${decor}`}>
       <h3 className="advantage-title">
         {title}
       </h3>

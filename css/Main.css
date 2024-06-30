@@ -127,7 +127,7 @@ section {
 }
 
 .container {
-  max-width: 1170px;
+  max-width: 1165px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -152,91 +152,9 @@ section {
 h2 {
   font-size: 36px;
   font-family: "Rubik", sans-serif;
-  font-weight: 600;
 }
 
 h3 {
   font-size: 20px;
   font-weight: 600;
-}
-
-.app {
-  padding-top: 103px;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-}
-
-.header {
-  position: fixed;
-  z-index: 1;
-  background-color: #e7e5e5;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-.header .header-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 40px 0;
-}
-.header .header-wrapper .navig {
-  display: flex;
-  gap: 57px;
-  align-items: center;
-}
-.header .header-wrapper .navig .nav-list {
-  display: flex;
-  gap: 20px;
-  align-items: center;
-}
-.header .header-wrapper .navig .header-logo img {
-  min-width: 143px;
-}
-
-.hero {
-  background-image: url("../../assets/images/babyphoto.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-}
-.hero .container {
-  max-width: 931px;
-}
-.hero .hero-wrapper {
-  padding: 136px 0 160px;
-}
-.hero .hero-wrapper .hero-title {
-  font-family: "Rubik", sans-serif;
-  font-size: 42px;
-  margin-bottom: 15px;
-}
-.hero .hero-wrapper .hero-subtitle {
-  display: block;
-  font-family: "Rubik", sans-serif;
-  font-size: 18px;
-  margin-bottom: 30px;
-}
-.hero .hero-wrapper .hero-description {
-  margin-bottom: 45px;
-  max-width: 375px;
-}
-
-.footer {
-  margin-top: auto;
-  padding: 40px 0;
-  background-color: #e7e5e5;
-}
-
-.footer-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.footer-rights {
-  display: flex;
-  gap: 5px;
 }/*# sourceMappingURL=main.css.map */

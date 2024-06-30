@@ -13,7 +13,7 @@ const VideoComponent = () => {
     };
 
     return (
-        <div className={`aboutLearning-video ${isReady ? 'ready' : ''}`} onClick={handleVideoClick}>
+        <div className={`metodology-video ${isReady ? 'ready' : ''}`} onClick={handleVideoClick}>
             {isReady && (
                 <iframe 
                     src="https://www.youtube.com/embed/6BEyP_x6yls?si=BwiX1FWG1TwjM2q4" 

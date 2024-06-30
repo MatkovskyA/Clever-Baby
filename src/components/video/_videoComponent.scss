@@ -1,52 +1,28 @@
-.aboutLearning {
-  position: relative;
-}
-
-// .aboutLearning::after {
-//   content: "";
-//   position: absolute;
-//   width: 155px;
-//   height: 135px;
-//   background: url(../resourses/rocket.svg) no-repeat;
-//   top: -80px;
-//   right: 150px;
-// }
-
-// .aboutLearning::before {
-//   content: "";
-//   position: absolute;
-//   width: 155px;
-//   height: 135px;
-//   background: url(../resourses/girl.svg) no-repeat;
-//   top: 120px;
-//   left: 50px;
-// }
-
-.aboutLearning-inner {
-  width: 50%;
-  margin-bottom: 160px;
-}
-.aboutLearning-video {
+.metodology-video {
   max-width: 100%;
   padding-top: 56%;
   position: relative;
   background: url(../../assets/images/foto-video.png) no-repeat center center;
   border-radius: 10px;
 }
-.aboutLearning-video::before {
+
+.metodology-video::before {
   content: "";
   background: url(../../assets/icons/VideoArrow.svg) no-repeat;
   position: absolute;
-  top: 40%;
-  left: 45%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
   width: 50px;
   height: 50px;
   cursor: pointer;
 }
-.aboutLearning-video:hover {
+
+.metodology-video:hover {
   opacity: 0.8;
 }
-.aboutLearning-video iframe {
+
+.metodology-video iframe {
   position: absolute;
   top: 0;
   right: 0;

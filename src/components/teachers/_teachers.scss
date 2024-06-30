@@ -1,0 +1,20 @@
+.teachers {
+
+  .teacher-wrapper {
+    margin-bottom: 30px;
+  }
+
+  .container {
+    max-width: 961px;
+  }
+
+  .teacher-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 57px;
+
+    p {
+      max-width: 350px;
+    }
+  }
+}

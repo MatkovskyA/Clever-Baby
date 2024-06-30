@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Rubik:wght@500&display=swap");
-
 // @font-face {
 //   font-family: "Montserrat";
 //   src: url("/fonts/Montserrat/Montserrat-Regular.woff2") format("woff2");
@@ -40,7 +39,7 @@ section {
 }
 
 .container {
-  max-width: 1170px;
+  max-width: 1165px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -51,21 +50,20 @@ section {
 }
 
 .yellow-btn {
-  background-color: $btn-color-yellow;
+  background-color: $color-yellow;
 }
 
 .blue-btn {
-  background-color: $btn-color-blue;
+  background-color: $color-blue;
 }
 
 .pink-btn {
-  background-color: $btn-color-pink;
+  background-color: $color-pink;
 }
 
 h2 {
   font-size: 36px;
   font-family: "Rubik", sans-serif;
-  font-weight: 600;
 }
 
 h3 {
