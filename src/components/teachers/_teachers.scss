@@ -11,6 +11,8 @@
   .teacher-header {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
     margin-bottom: 57px;
 
     p {

@@ -1,6 +1,6 @@
 const Button = ({text, btnStyle}) => {
   return (
-    <button className={`${btnStyle} btn`}>
+    <button className={`btn ${btnStyle}`}>
       {text}
     </button>
   )

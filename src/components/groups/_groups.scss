@@ -15,10 +15,8 @@
       margin-bottom: 57px;
       display: flex;
       justify-content: space-between;
-
-        h2 {
-          margin-bottom: 40px;
-        }
+      flex-wrap: wrap;
+      gap: 30px;
 
         p {
           max-width: 298px;

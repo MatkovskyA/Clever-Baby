@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className={"footer"}>
       <div className="container">
         <div className="footer-wrapper">
-          <p className="footer-rights">CleverBaby <img src={icon} alt="icon" /> 2020 Все права защищены</p>
+          <p className="footer-rights">CleverBaby <img src={icon} alt="icon" /> 2020-2024 Все права защищены</p>
           <Link to="/">Политика конфиденциальности</Link>
         </div>
       </div>

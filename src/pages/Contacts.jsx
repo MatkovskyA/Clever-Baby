@@ -1,6 +1,12 @@
+import Contact from "../components/contacts/Contact";
+import TrialLesson from "../components/tiral-lesson/TrialLesson";
+
 const Contacts = () => {
   return (
-    <h1>Это страница Контакты</h1>
+    <>
+      <Contact />
+      <TrialLesson/>
+    </>
   )
 }
 

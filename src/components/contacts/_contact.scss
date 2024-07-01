@@ -1,0 +1,32 @@
+@import "../../assets/styles/variables";
+
+.contact {
+  padding: 150px 0 80px;
+  background-color: $bg-light-blue-color;
+
+  .contact-title {
+    margin-bottom: 45px;
+  }
+
+  .contact-wrapper {
+    display: flex;
+    flex-direction: row; 
+    row-gap: 50px;
+    column-gap: 35px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 590px;
+
+    .contact-block {
+      width: 47%;
+
+      h4 {
+        color: $color-gray;
+      }
+
+      a, span {
+        font-size: 18px;
+      }
+    }
+  }
+}

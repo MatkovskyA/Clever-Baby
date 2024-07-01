@@ -1,0 +1,39 @@
+@import "../../assets/styles/variables";
+
+.trialLesson {
+  background-image: url("../../assets/images/back-banner.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size:auto;
+  color: #FEFCFA;
+  padding: 120px 0 100px;
+
+  .trialLesson-title {
+    margin-bottom: 30px;
+    max-width: 490px;
+    text-align: center;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    .trialLesson-wrapper {
+      display: flex;
+      flex-direction: column;
+      max-width: 318px;
+      gap: 35px;
+
+      p {
+        text-align: center;
+        font-size: 14px;
+      }
+
+      button {
+        color: $text-color;
+      }
+    }
+  }
+}
