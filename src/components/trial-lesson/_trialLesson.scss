@@ -2,11 +2,11 @@
 
 .trialLesson {
   background-image: url("../../assets/images/back-banner.png");
-  background-position: center center;
+  background-position: center;
   background-repeat: no-repeat;
-  background-size:auto;
+  background-size: cover;
   color: #FEFCFA;
-  padding: 120px 0 100px;
+  padding: 150px 0 150px;
 
   .trialLesson-title {
     margin-bottom: 30px;
@@ -19,7 +19,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
     .trialLesson-wrapper {
       display: flex;
       flex-direction: column;

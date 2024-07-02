@@ -1,5 +1,5 @@
 import Contact from "../components/contacts/Contact";
-import TrialLesson from "../components/tiral-lesson/TrialLesson";
+import TrialLesson from "../components/trial-lesson/TrialLesson";
 
 const Contacts = () => {
   return (

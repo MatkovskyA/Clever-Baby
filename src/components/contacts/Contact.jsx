@@ -29,9 +29,9 @@ const Contact = () => {
           </div>
           <div className="contact-block">
             <h4>Мы в соцсетях</h4>
-            <a href="https://instagram.com/cleverbaby" target="_blank"><img src={iconFacebook} alt="Facebook" /></a>
-            <a href="https://figma.com" target="_blank"><img src={iconVk} alt="VK" /></a>
-            <a href="https://figma.com" target="_blank"><img src={iconInstagram} alt="Instagram" /></a>
+            <a href="https://facebook.com/cleverbaby" target="_blank"><img src={iconFacebook} alt="Facebook" /></a>
+            <a href="https://https://vk.com/public211468852" target="_blank"><img src={iconVk} alt="VK" /></a>
+            <a href="https://instagram.com/cleverbaby" target="_blank"><img src={iconInstagram} alt="Instagram" /></a>
           </div>
         </div>
       </div>
