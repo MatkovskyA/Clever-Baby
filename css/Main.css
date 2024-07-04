@@ -165,7 +165,6 @@ a {
 }
 
 a::after {
-  content: "";
   position: absolute;
   bottom: 0;
   left: 0;

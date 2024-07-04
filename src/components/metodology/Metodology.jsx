@@ -32,13 +32,3 @@ const Metodology = () => {
 }
 
 export default Metodology;
-// window.addEventListener('DOMContentLoaded',() => {
-//   const video = document.querySelector('.metodology-video');
-//   video.addEventListener('click', () => {
-//       if(video.classList.contains('ready')) {
-//           return
-//       }
-//       video.classList.add('ready');
-//       video.insertAdjacentHTML('afterbegin', '<iframe src="https://www.youtube.com/embed/6BEyP_x6yls?si=BwiX1FWG1TwjM2q4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>')
-//   })
-// })

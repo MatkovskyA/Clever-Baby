@@ -1,10 +1,19 @@
 import Group from "../group/Group"
 import Button from "../button/Button"
+import Popup from "../modal/Modal"
 
 import "./_groups.scss"
 import "../../assets/styles/_variables.scss"
+import React from "react"
+import { useState } from "react"
+import Modal from "../modal/Modal"
 
 const Groups = () => {
+
+  // const [isModalOpen, setIsModalOpen] = useState(false);
+  // const togglePopup = () => {
+  //   setIsModalOpen(!isModalOpen);
+  // };
 
   return (
     <section className="groups">
@@ -36,7 +45,7 @@ const Groups = () => {
             <Button
               text={"Записаться"}
               btnStyle={"yellow-btn"}
-            />
+              />
           </div>
           <div className="groups-inner groups-inner-pink">
             <Group
