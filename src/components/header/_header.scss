@@ -7,11 +7,12 @@
   top: 0;
   left: 0;
   right: 0;
+
   .header-wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 40px 0;  
+    padding: 40px 0;
 
     .navig {
       display: flex;
@@ -22,10 +23,10 @@
         display: flex;
         gap: 20px;
         align-items: center;
-      }
 
-      .header-logo img{
-        min-width: 143px;
+        .header-logo img {
+          min-width: 143px;
+        }
       }
     }
   }

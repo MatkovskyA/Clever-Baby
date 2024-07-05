@@ -1,5 +1,3 @@
-import "./_advantage.scss"
-
 const Advantage = ({ decor="", title, text }) => {
   return (
     <div className={`advantage ${decor}`}>

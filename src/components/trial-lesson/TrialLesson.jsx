@@ -20,10 +20,7 @@ const TrialLesson = () => {
           <Button
             text={"Записаться"}
             btnStyle={"yellow-btn"}
-            // togglePopup={togglePopup}
             />
-            {/* {isModalOpen && <Modal onOpen={togglePopup} onClose={togglePopup} 
-            />} */}
         </div>
       </div>
     </section>

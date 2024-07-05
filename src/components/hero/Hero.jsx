@@ -1,10 +1,15 @@
+import Rocket from "../../animation/rocket/Rocket";
 import Button from "../button/Button";
 import "./_hero.scss";
+
 
 const Hero = () => {
   return (
     <>
       <section className="hero">
+      <Rocket 
+        direction={''}
+      />
         <div className="container">
           <div className="hero-wrapper">
             <h1 className="hero-title">Английский язык</h1>

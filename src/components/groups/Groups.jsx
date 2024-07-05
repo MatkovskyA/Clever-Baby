@@ -10,11 +10,6 @@ import Modal from "../modal/Modal"
 
 const Groups = () => {
 
-  // const [isModalOpen, setIsModalOpen] = useState(false);
-  // const togglePopup = () => {
-  //   setIsModalOpen(!isModalOpen);
-  // };
-
   return (
     <section className="groups">
       <div className="container">
@@ -61,7 +56,6 @@ const Groups = () => {
           </div>
         </div>
       </div>
-
     </section>
   )
 }

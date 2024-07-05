@@ -3,18 +3,17 @@ import { useState, useEffect } from "react";
 
 const Modal = ({ handleClose }) => {
 
-
   const [isOpen, setIsOpen] = useState(true);
 
-  const closePopup = () => {
-    setIsOpen(false);
-  };
+  // const closePopup = () => {
+  //   setIsOpen(!isOpen);
+  // };
 
   useEffect(() => {
     const handleOutsideClick = (e) => {
       const modal = document.querySelector('.popup-content');
       if (isOpen && modal && !modal.contains(e.target)) {
-        closePopup();
+        handleClose();
       }
     }
 
@@ -26,7 +25,7 @@ const Modal = ({ handleClose }) => {
   }, [isOpen]);
 
   return (
-    <div>
+    <>
       {isOpen && (
         <div className="popup">
           <form className="popup-content">
@@ -39,7 +38,7 @@ const Modal = ({ handleClose }) => {
           </form>
         </div>
       )}
-    </div>
+    </>
   );
 };
 

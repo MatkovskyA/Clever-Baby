@@ -1,7 +1,5 @@
 import { useState } from "react";
 import "../../assets/styles/_variables.scss"
-import { useDispatch } from 'react-redux';
-import { openModal } from '../../utils/Actions';
 import Modal from "../modal/Modal";
 
 const Button = ({ text, btnStyle }) => {
@@ -13,11 +11,10 @@ const Button = ({ text, btnStyle }) => {
 
   return (
     <>
-
       <button className={`btn ${btnStyle}`}
-        style={{
-          backgroundColor: isOpen && "#4ffcab",
-        }}
+        // style={{
+        //   backgroundColor: isOpen && "#4ffcab",
+        // }}
         onClick={toggleModal}
       >
         {text}
