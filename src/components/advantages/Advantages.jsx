@@ -1,13 +1,19 @@
 import "./_advantages.scss"
 import image from "../../assets/images/Vector-baby.png"
 import Advantage from "../advantage/Advantage";
+import Girl from "../../animation/girl/Girl";
 
 const Advantages = () => {
   return (
     <section className="advantages">
       <div className="container">
-        <h2 className="advantages-title">Наши преимущества</h2>
+
+        <h2 className="advantages-title">
+          Наши преимущества
+          <Girl />
+        </h2>
         <div className="advantages-wrapper">
+
           <div className="advantage-column">
             <Advantage
               decor={"decor-left"}
