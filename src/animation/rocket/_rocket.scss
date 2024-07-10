@@ -1,24 +1,24 @@
 @keyframes rocket-animation {
-  from {
-    background-position: 0%;
+  0% {
+    transform: translate(100vw);
   }
   
-  to {
-    background-position: 100%;
+  100% {
+    transform: translate(-100vw);
   }
 }
 
 .rocket {
-  left: -136px;
-  display: block;
   position: absolute;
+  top: 10%;
   overflow: hidden;
   white-space: nowrap;
-  width: 100%;
   height: 70px;
+  width: 150px;
   animation: rocket-animation 20s linear infinite;
   background-image: url('../../assets/icons/rocket.svg');
   background-repeat: no-repeat;
+  background-size: contain;
 }
 
 
