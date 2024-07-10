@@ -9,8 +9,8 @@ const Advantages = () => {
       <div className="container">
 
         <h2 className="advantages-title">
+        <Girl top="50px" left="0px"/>
           Наши преимущества
-          <Girl />
         </h2>
         <div className="advantages-wrapper">
 

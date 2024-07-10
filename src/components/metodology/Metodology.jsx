@@ -1,4 +1,3 @@
-import Rocket from "../../animation/rocket/Rocket";
 import Video from "../video/VideoComponent";
 import "./_metodology.scss"
 
@@ -6,7 +5,6 @@ const Metodology = () => {
 
   return (
     <section className="metodology">
-      <Rocket />
       <div className="container">
         <div className="metodology-wrapper">
           <h2 className="metodology-title">Как проходит обучение</h2>

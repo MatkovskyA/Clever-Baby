@@ -90,3 +90,9 @@ a::after {
 a:focus::after {
   width: 100%; 
 } 
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 45px;
+  }
+}
