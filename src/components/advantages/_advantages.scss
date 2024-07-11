@@ -31,3 +31,31 @@
     margin-left: 20px;
   }
 }
+
+@media (max-width: 768px) {
+  .advantages {
+    .advantages-wrapper {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      img {
+        max-width: 200px;
+      }
+    }
+  
+    .advantage-column{
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+    }
+  
+    .advantage-column:first-child {
+      margin-top: 45px;
+    }
+  
+    .advantage-column:last-child {
+      margin-left: 20px;
+    }
+  }
+}

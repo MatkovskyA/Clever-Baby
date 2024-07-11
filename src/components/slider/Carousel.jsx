@@ -2,7 +2,6 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import '../../../node_modules/slick-carousel/slick/slick.scss';
-import "./_carousel.scss";
 
 import Card from '../card/Card';
 import foto1 from "../../assets/images/teacher.png"
@@ -12,6 +11,7 @@ import foto4 from "../../assets/images/teacher4.png"
 import foto5 from "../../assets/images/teacher5.jpeg"
 import foto6 from "../../assets/images/teacher6.avif"
 import foto7 from "../../assets/images/teacher7.avif"
+
 const Carousel = () => {
 
   const settings = {
@@ -22,6 +22,29 @@ const Carousel = () => {
     slidesToScroll: 1,
     adaptiveHeight: true,
     arrows: false,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          initialSlide: 2
+        }
+      },
+      {
+        breakpoint: 320,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
   };
 
   return (

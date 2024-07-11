@@ -20,3 +20,21 @@
     }
   }
 }
+
+@media (max-width: 798px) {
+  .teachers {
+
+    .teacher-header {
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 57px;
+      
+      h2 {
+        max-width: 277px;
+      }
+      // p {
+      //   text-align: center;
+      // }
+    }
+  }
+}

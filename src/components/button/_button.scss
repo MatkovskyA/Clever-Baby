@@ -2,7 +2,7 @@
 
 .btn {
   padding: 18px 35px 20px;
-  border-radius: 35px;
+  border-radius: 10rem;
   display: inline-block;
   transition: all .4s;
   position: relative;
@@ -48,4 +48,10 @@
 
 .pink-btn {
   background-color: $color-pink;
+}
+
+@media (max-width: 768px) {
+  .btn {
+    padding: 15px 28px 17px;
+  }
 }

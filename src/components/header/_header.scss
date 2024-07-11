@@ -50,6 +50,21 @@
           width: 100%;
         }
       }
+
+      .header-phone a {
+        display: inline-block;
+        position: relative;
+      }
+
+      .header-phone a::before {
+        content: "";
+        position: absolute;
+        height: 15px;
+        width: 15px;
+        left: -25px;
+        top: 2px;
+        background-image: url('../../assets/icons/Vector-tel.svg');
+      }
     }
   }
 }
@@ -59,7 +74,8 @@
   .header {
 
     .header-navigation {
-
+      display: flex;
+      align-items: center;
       .header-logo {
         min-width: 143px;
       }
@@ -70,7 +86,7 @@
         align-items: start;
         gap: 20px;
         padding: 0 45px 45px;
-        top: -200px;
+        top: -300px;
         left: 0;
         background-color: $color-blue;
         font-size: 24px;
@@ -82,6 +98,22 @@
           gap: 20px;
           align-items: start;
         }
+
+        .header-phone a {
+          padding-left: 30px;
+        }
+  
+        .header-phone a::before {
+          content: "";
+          position: absolute;
+          height: 20px;
+          width: 20px;
+          left: 0;
+          top: 5px;
+          background-image: url('../../assets/icons/Vector-tel.svg');
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
       }
 
       .header-nav.active {
@@ -91,79 +123,15 @@
   }
 }
 
-// @media (max-width: 768px) {
-//   .header .header-wrapper {
-//     align-items: start;
-
-//     .header-navigation {
-//       display: inline-block;
-
-//       .header-logo {
-//         display: inline;
-//       }
-
-//       .header-nav-list {
-//         display: none;
-//         flex-direction: column;
-//         align-items: start;
-//         font-size: 22px;
-//         padding: 0 45px 45px 45px;
-//         position: fixed;
-//         background-color: $color-blue;
-//         z-index: 10;
-//         top: -150px;
-//         left: 0;
-//         right: 0;
-//         width: 100%;
-//         transition: top 1s;
-//       }
-
-//       .header-nav-list.active {
-//         top: 100px;
-//       }
-//     }
-//   }
-// }
-
-// кнопка бургер
-
 .mobileBtn {
   display: none;
-  min-width: 25px;
-  height: 15px;
-  flex-direction: column;
-  justify-content: space-between;
-  position: relative;
+  min-width: 20px;
+  height: 20px;
+  text-align: center;
   cursor: pointer;
 
-  span {
-    width: 100%;
-    height: 3px;
-    background-color: $text-color;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    border-radius: 10px;
-  }
-
-  span:before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 3px;
-    background-color: inherit;
-    top: -6px;
-    border-radius: 10px;
-  }
-
-  span:after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 3px;
-    background-color: inherit;
-    top: 6px;
-    border-radius: 10px;
+  img {
+    height: 100%;
   }
 }
 

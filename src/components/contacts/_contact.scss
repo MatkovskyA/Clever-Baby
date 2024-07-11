@@ -32,12 +32,46 @@
       .contact-block__link {
         position: static;
         display: inline-block;
-        /* Строчно-блочный элемент */
         transition: transform 0.3s;
       }
 
       .contact-block__link:hover {
         transform: rotate(3deg) translate(5px);
+      }
+    }
+  }
+}
+
+
+@media (max-width: 768px) {
+  .contact {
+    padding: 150px 0 50px;
+    background-color: $bg-light-blue-color;
+  
+    .contact-title {
+      margin-bottom: 45px;
+    }
+  
+    .contact-wrapper {
+      display: flex;
+      flex-direction: row;
+      row-gap: 50px;
+      column-gap: 35px;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      max-width: 590px;
+  
+      .contact-block {
+        width: 100%;
+  
+        h4 {
+          color: $color-gray;
+        }
+  
+        a,
+        span {
+          font-size: 18px;
+        }
       }
     }
   }

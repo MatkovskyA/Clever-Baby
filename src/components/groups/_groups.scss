@@ -12,15 +12,15 @@
     max-width: 961px;
 
     .groups-header {
-      margin-bottom: 57px;
+      margin-bottom: 50px;
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
       gap: 30px;
 
-        p {
-          max-width: 298px;
-        }
+      p {
+        max-width: 298px;
+      }
     }
 
     .groups-wrapper {
@@ -71,6 +71,24 @@
       }
     }
   }
+}
 
+@media (max-width: 768px) {
+  .groups {
+    .container {
 
+      .groups-header {
+        margin-bottom: 50px;
+        gap: 30px;
+      }
+
+      .groups-wrapper {
+        gap: 28px;
+
+        .groups-inner {
+          padding: 45px 25px;
+        }
+      }
+    }
+  }
 }

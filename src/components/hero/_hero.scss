@@ -33,3 +33,14 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .hero {
+    background-image: url("../../assets/images/mainBgTablet.svg");
+  
+    .hero-wrapper {
+      padding: 92px 0 133px;
+  
+    }
+  }
+}

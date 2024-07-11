@@ -3,6 +3,8 @@ import { useState } from "react";
 import { NavLink } from 'react-router-dom';
 
 import logo from "../../assets/icons/logo.svg";
+import openNav from "../../assets/icons/burgerBtn.svg"
+import closeNav from "../../assets/icons/closeBtn.svg"
 
 const Header = () => {
 
@@ -17,12 +19,12 @@ const Header = () => {
       <div className="container">
         <div className="header-navigation">
           <div className="mobileBtn" onClick={handleMenuClick}>
-            <span></span>
+            <img src={navOpen ? closeNav : openNav} alt={navOpen ? "Close" : "Burger"} />
           </div>
           <div className="header-logo">
             <NavLink to="/"><img src={logo} alt={logo} /></NavLink>
           </div>
-          <nav className={`header-nav ${navOpen && "active"}`}>
+          <nav className={`header-nav ${navOpen ? "active" : ""}`} onClick={() => setNavOpen(false)} >
             <ul className='header-nav-list'>
               <li>
                 <NavLink to="/">Главная</NavLink>
