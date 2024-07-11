@@ -1,4 +1,5 @@
-# React + Vite
+# The website was developed using ReactJs, Vite, Scss.
+English language school website for young children
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
