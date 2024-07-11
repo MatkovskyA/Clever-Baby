@@ -2,7 +2,7 @@
 
 .header {
   position: fixed;
-  z-index: 1;
+  z-index: 5;
   background-color: $color-blue;
   top: 0;
   left: 0;
@@ -29,6 +29,26 @@
         display: flex;
         gap: 20px;
         align-items: center;
+
+        a {
+          padding-bottom: 5px;
+          position: relative;
+        }
+
+        a::after {
+          content: "";
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 0;
+          height: 2px;
+          background-color: black;
+          transition: width 0.3s;
+        }
+
+        a:focus::after {
+          width: 100%;
+        }
       }
     }
   }
@@ -50,18 +70,22 @@
         align-items: start;
         gap: 20px;
         padding: 0 45px 45px;
-        top: 100px;
+        top: -200px;
         left: 0;
         background-color: $color-blue;
         font-size: 24px;
+        transition: all 0.4s;
 
         .header-nav-list {
-        
           display: flex;
           flex-direction: column;
           gap: 20px;
           align-items: start;
         }
+      }
+
+      .header-nav.active {
+        top: 100px;
       }
     }
   }

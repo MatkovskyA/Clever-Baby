@@ -10,7 +10,7 @@
 
   .contact-wrapper {
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
     row-gap: 50px;
     column-gap: 35px;
     flex-wrap: wrap;
@@ -24,12 +24,20 @@
         color: $color-gray;
       }
 
-      a, span {
+      a,
+      span {
         font-size: 18px;
       }
 
-      a {
+      .contact-block__link {
         position: static;
+        display: inline-block;
+        /* Строчно-блочный элемент */
+        transition: transform 0.3s;
+      }
+
+      .contact-block__link:hover {
+        transform: rotate(3deg) translate(5px);
       }
     }
   }

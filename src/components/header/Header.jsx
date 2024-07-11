@@ -22,8 +22,8 @@ const Header = () => {
           <div className="header-logo">
             <NavLink to="/"><img src={logo} alt={logo} /></NavLink>
           </div>
-          <nav className="header-nav">
-            <ul className={`header-nav-list ${navOpen && "active"}`}>
+          <nav className={`header-nav ${navOpen && "active"}`}>
+            <ul className='header-nav-list'>
               <li>
                 <NavLink to="/">Главная</NavLink>
               </li>

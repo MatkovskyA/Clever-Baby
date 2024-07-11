@@ -44,23 +44,6 @@ section {
   padding: 0 15px;
 }
 
-.btn {
-  padding: 18px 35px 20px;
-  border-radius: 35px;
-}
-
-.yellow-btn {
-  background-color: $color-yellow;
-}
-
-.blue-btn {
-  background-color: $color-blue;
-}
-
-.pink-btn {
-  background-color: $color-pink;
-}
-
 h2 {
   font-size: 36px;
   font-family: "Rubik", sans-serif;
@@ -70,26 +53,6 @@ h3 {
   font-size: 20px;
   font-weight: 600;
 }
-
-a {
-  padding-bottom: 5px;
-  position: relative;
-}
-
-a::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 0;
-  height: 2px;
-  background-color: black;
-  transition: width 0.3s;
-}
-
-a:focus::after {
-  width: 100%; 
-} 
 
 @media (max-width: 768px) {
   .container {
