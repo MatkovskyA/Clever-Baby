@@ -7,9 +7,7 @@ const Hero = () => {
   return (
     <>
       <section className="hero">
-      <Rocket 
-        direction={''}
-      />
+      <Rocket />
         <div className="container">
           <div className="hero-wrapper">
             <h1 className="hero-title">Английский язык</h1>

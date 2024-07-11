@@ -5,6 +5,7 @@
   background-position: center center;
   background-size: cover;
   position: relative;
+  overflow: hidden;
 
   .container {
     max-width: 931px;
@@ -37,10 +38,17 @@
 @media (max-width: 768px) {
   .hero {
     background-image: url("../../assets/images/mainBgTablet.svg");
-  
+    background-position: right;
     .hero-wrapper {
       padding: 92px 0 133px;
-  
+      
+      .hero-title, .hero-subtitle, .hero-description  {
+        text-shadow: 0px 0px 15px rgb(255, 255, 255,);
+      }
+
+      .hero-description {
+        font-size: 16px;
+      }
     }
   }
 }

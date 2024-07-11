@@ -13,17 +13,17 @@ function App() {
 
   return (
     <div className='app'>
-        <BrowserRouter>
-          <Header />
-          <ScrollToTop />
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/contacts" element={<Contacts />} />
-            <Route path="/teachers" element={<TeachersAndGroups />} />
-          </Routes>
-          <Map />
-          <Footer />
-        </BrowserRouter>
+      <BrowserRouter basename='/Clever-Baby'>
+        <Header />
+        <ScrollToTop />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/contacts" element={<Contacts />} />
+          <Route path="/teachers" element={<TeachersAndGroups />} />
+        </Routes>
+        <Map />
+        <Footer />
+      </BrowserRouter>
     </div>
   )
 }

@@ -34,6 +34,9 @@
 
 @media (max-width: 768px) {
   .advantages {
+    .advantages-title {
+      margin-bottom: 20px;
+    }
     .advantages-wrapper {
       display: flex;
       flex-direction: row;

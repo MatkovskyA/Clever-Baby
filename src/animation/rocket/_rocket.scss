@@ -4,17 +4,17 @@
   }
   
   100% {
-    transform: translate(-100vw);
+    transform: translate(-20vw);
   }
 }
 
 .rocket {
   position: absolute;
-  top: 10%;
+  top: 20px;
   overflow: hidden;
   white-space: nowrap;
   height: 70px;
-  width: 150px;
+  width: 130px;
   animation: rocket-animation 20s linear infinite;
   background-image: url('../../assets/icons/rocket.svg');
   background-repeat: no-repeat;
